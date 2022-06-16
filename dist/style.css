@@ -15,7 +15,7 @@ body {
 .post {
   height: fit-content;
   width: 100%;
-  margin:5%;
+  margin: 5%;
 }
 
 .post_image_div {
@@ -70,7 +70,6 @@ body {
 
 .follow p {
   margin: 0px;
-  font-size: 0.8em;
   text-align: center;
   color: yellow;
   font-size: 1.2em;
@@ -115,19 +114,16 @@ body {
   text-align: justify;
 }
 
-.content
-{
+.content {
   display: flex;
   margin-top: 3%;
 }
 
-.post_text
-{
+.post_text {
   width: 100%;
 }
 
-.post_text p
-{
+.post_text p {
   margin: 0px !important;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -136,11 +132,10 @@ body {
   -webkit-box-orient: vertical;
 }
 
-.post_arrow
-{
+.post_arrow {
   align-self: flex-end;
-  color:#a864ce;
-  font-size:20px;
+  color: #a864ce;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -153,8 +148,9 @@ body {
   .post {
     height: fit-content;
     width: 100%;
-    margin:5%;
+    margin: 5%;
   }
+
   .post_info_comment_likes_div {
     display: flex;
     width: 100%;
@@ -164,8 +160,7 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  body
-  {
+  body {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -176,22 +171,12 @@ body {
     margin: 0px;
     align-items: flex-start;
     font-family: "Montserrat", sans-serif;
-    
   }
 
   .post {
     height: fit-content;
     width: 90%;
     margin: 5%;
-  }
-
-}
-
-@media (orientation: landscape) {
-  .post {
-    height: fit-content;
-    width: 100%;
-    margin:5%;
   }
 }
 
