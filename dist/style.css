@@ -161,6 +161,7 @@ body {
   .post {
     height: fit-content;
     max-width: fit-content;
+    margin:5%;
   }
   .post_info_comment_likes_div {
     display: flex;
